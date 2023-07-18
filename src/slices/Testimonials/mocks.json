@@ -1,0 +1,30 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"testimonial": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim eiusmod dolore aliquip et commodo nostrud duis exercitation ex aliqua laborum. Magna exercitation cupidatat minim officia ad consectetur ipsum ad exercitation consequat excepteur sit qui. Deserunt magna incididunt ea fugiat mollit labore."
+						}
+					}
+				]
+			},
+			"username": {
+				"__TYPE__": "FieldContent",
+				"value": "tax",
+				"type": "Text"
+			},
+			"userdesignation": {
+				"__TYPE__": "FieldContent",
+				"value": "favorite",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

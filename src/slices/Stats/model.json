@@ -1,8 +1,8 @@
 {
-  "id": "hero",
+  "id": "stats",
   "type": "SharedSlice",
-  "name": "Hero",
-  "description": "Hero",
+  "name": "Stats",
+  "description": "Stats",
   "variations": [
     {
       "id": "default",
@@ -16,7 +16,7 @@
           "type": "StructuredText",
           "config": {
             "label": "Title",
-            "placeholder": "Before they sold out readymade gluten",
+            "placeholder": "",
             "allowTargetBlank": true,
             "single": "heading1"
           }
@@ -25,26 +25,26 @@
           "type": "StructuredText",
           "config": {
             "label": "Description",
-            "placeholder": "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed.",
+            "placeholder": "",
             "allowTargetBlank": true,
             "multi": "paragraph"
           }
         },
-        "buttontext": {
-          "type": "Text",
-          "config": { "label": "ButtonText", "placeholder": "" }
+        "downloads": {
+          "type": "Number",
+          "config": { "label": "Downloads", "placeholder": "" }
         },
-        "buttonlink": {
-          "type": "Link",
-          "config": { "label": "ButtonLink", "placeholder": "", "select": null }
+        "users": {
+          "type": "Number",
+          "config": { "label": "Users", "placeholder": "" }
         },
-        "bgimage": {
-          "type": "Image",
-          "config": {
-            "label": "BgImage",
-            "constraint": { "width": 720, "height": 600 },
-            "thumbnails": []
-          }
+        "files": {
+          "type": "Number",
+          "config": { "label": "Files", "placeholder": "" }
+        },
+        "places": {
+          "type": "Number",
+          "config": { "label": "Places", "placeholder": "" }
         }
       },
       "items": {}

@@ -21,7 +21,7 @@ export default function Header() {
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link class="mr-5 hover:text-white" href="/">Home</Link>
-          <Link class="mr-5 hover:text-white" href="/contact">Contact Us</Link>
+          <Link class="mr-5 hover:text-white" href="/contact-us">Contact Us</Link>
         </nav>
       </div>
     </header>

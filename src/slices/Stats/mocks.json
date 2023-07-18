@@ -1,0 +1,51 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Reader"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sunt sunt eu id est ullamco sunt id anim duis mollit sint pariatur aliqua duis. Cupidatat adipisicing aute do dolore minim cillum laboris eiusmod anim aliquip do enim."
+						}
+					}
+				]
+			},
+			"downloads": {
+				"__TYPE__": "FieldContent",
+				"value": "77",
+				"type": "Number"
+			},
+			"users": {
+				"__TYPE__": "FieldContent",
+				"value": "97",
+				"type": "Number"
+			},
+			"files": {
+				"__TYPE__": "FieldContent",
+				"value": "78",
+				"type": "Number"
+			},
+			"places": {
+				"__TYPE__": "FieldContent",
+				"value": "82",
+				"type": "Number"
+			}
+		},
+		"items": []
+	}
+]
