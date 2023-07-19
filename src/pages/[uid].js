@@ -16,14 +16,29 @@ export default function Page({ page }) {
   );
 }
 
-export async function getStaticProps({ previewData }) {
+export async function getStaticProps({ params, previewData }) {
   const client = createClient({ previewData });
 
-  const page = await client.getByUID("page", "home");
+  const page = await client.getByUID("page", params.uid);
 
   return {
     props: {
       page,
     },
+  };
+}
+
+export async function getStaticPaths() {
+  const client = createClient();
+
+  const pages = await client.getAllByType("page");
+
+  return {
+    paths: pages.map((page) => {
+      return {
+        params: { uid: page.uid },
+      };
+    }),
+    fallback: false,
   };
 }
