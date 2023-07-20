@@ -1,0 +1,15 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "sitename": {
+        "type": "Text",
+        "config": { "label": "SiteName", "placeholder": "" }
+      }
+    }
+  }
+}
